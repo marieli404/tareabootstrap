@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Kranky&display=swap" rel="stylesheet">
+    <title>MI PAGINA </title>
+</head>
+<body>
+    <div class="container-fluid">
+                <nav class="navbar navbar-expand-lg" style="background-color: rgb(175, 127, 199);">
+                    <div class="container-fluid">
+                      <h1 class="courgette-regular"><a class="navbar-brand" style="font-size: larger;" href="#">Marisel E. Guarachi Paz</a></h1>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                          <li class="nav-item">
+                            <h3 class="courgette-regular"><a class="nav-link active" aria-current="page" href="mater.html">Materias</a></h3>
+                          </li>
+                          <li class="nav-item">
+                            <h3 class="courgette-regular"><a class="nav-link" href="deportes.html">Deportes</a></h3>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              <h3 class="courgette-regular">Otros...</h3>
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><h3 class="courgette-regular"><a class="dropdown-item" href="https://www.youtube.com/watch?v=YbBeQiJmsrg">Cancion favorita
+                              </a></h3></li>
+                              <li><h3 class="courgette-regular"><a class="dropdown-item" href="#">Mi mascota</h3></li>
+                              <li><h3 class="courgette-regular"><a class="dropdown-item" href="https://es.wikipedia.org/wiki/Coraline_(pel%C3%ADcula)">pelicula favorita</a></h3></li>
+                            </ul>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </nav>
+    <div class="row">
+        <div class="col">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner" style="background-color: rgba(102, 30, 175, 0.5)">
+                    <div class="carousel-item active" style="opacity: .6;">
+                    <img src="imag/im1.jpg"  class="rounded mx-auto d-block" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="carousel-item" style="opacity: .6;" >
+                    <img src="imag/im2.jpg" class="rounded mx-auto d-block" class="img-thumbnail" alt="...">
+                    </div>
+                    <div class="carousel-item" style="opacity: .6;" >
+                    <img src="imag/im3.jpg" class="rounded mx-auto d-block" class="img-thumbnail" alt="...">
+                    </div>
+                    </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div> 
+        </div>
+    </div>
+          <div class="contenido">
+            <h1 class="kranky-regular">Sobre mi....</h1>
+                <p class="kranky-regular">Yo naci el 30 de junio de 2004, actualmente tengo 19 años, tengo 3 hermanos, vivo con mi abuela, mi sobrina, mishermanos y mi cuñado. Tengo una mejor amiga se llama Maya es la mejor. Estoy estudiando la carrera de Informatica en la Facultad de Ciencias Puras y Naturales de la UMSA y aparte tambien estudio ingles los sabados en Fist Class Institute.
+                Mi signo es Cancer, me gusta mucho MORAT, ver series, programar, ver comedias romanticas, las galletas oreo y la Coca Cola.
+                Psdt. La que esta en la tercera foto conmigo es mi mejor amiga.
+                </p>
+        </div>
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: turquoise;">
+  <h2 class="courgette-regular">Resumen...</h2>
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5, courgette-regular" id="exampleModalLabel">Resumen sobre mi..</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="close"></button>
+      </div>
+      <div class="modal-body">
+        <p class="kranky-regular">Nombre: Marisel<br>
+        Me gusta que me digan: Mar<br>
+      Edad:19 años<br>
+      Amo MORAT<br>
+    </p>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
